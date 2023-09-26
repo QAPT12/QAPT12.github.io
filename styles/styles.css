@@ -1,0 +1,9 @@
+.navbar {
+    min-height: 4rem;
+    background-color: #3d517c;
+    
+}
+
+.navbar-brand{
+    padding-left: 10px;
+}
