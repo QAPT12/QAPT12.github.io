@@ -167,7 +167,11 @@ class Game{
   
             if (!button.revealed) {
                 button.revealed = true;
-                button.innerHTML = cell;
+                if (cell == '0'){
+                    button.innerHTML = '';
+                } else {
+                     button.innerHTML = cell;
+                }
                 button.style.background='var(--reveal)';
 
                 this.revealedButtons += 1;
