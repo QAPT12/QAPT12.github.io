@@ -167,8 +167,8 @@ class Game{
   
             if (!button.revealed) {
                 button.revealed = true;
-                if (cell == '0'){
-                    button.innerHTML = '';
+                if (cell == "0"){
+                    button.innerHTML = "";
                 } else {
                      button.innerHTML = cell;
                 }
