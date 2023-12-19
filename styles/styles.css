@@ -1,14 +1,52 @@
-.navbar {
-    min-height: 4rem;
-    background-color: #3d517c;
-    
+:root {
+    --backdrop: #f8f8f8;
+    --navbar: #3d517c;
+    --headerText: #606060;
 }
 
-.navbar-brand{
+html, 
+.main, 
+.container, 
+.row, 
+.spacer{
+    background-color: var(--backdrop);
+}
+
+body {
+    font-family:sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    color: var(--headerText);
+}
+
+p {
+    font-size: 125%;
+}
+
+.spacer {
+    height: 20px;
+}
+
+.navbar {
+    min-height: 4rem;
+    background-color: var(--navbar);
+}
+
+.navbar-brand {
     padding-left: 10px;
 }
 
-.nav-item{
+.nav-item {
     font-weight:bold;
     padding-right: 1em;
+}
+
+.headshot{
+    border: solid 2px black;
+    border-radius: 50%;
+    width: 20%;
+    float: left;
+    margin-right:20px;
 }
