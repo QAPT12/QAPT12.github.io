@@ -2,6 +2,7 @@
     --backdrop: #f8f8f8;
     --navbar: #3d517c;
     --headerText: #606060;
+    --frame: #1f1e1e;
 }
 
 html, 
@@ -44,7 +45,7 @@ p {
 }
 
 .headshot{
-    border: solid 2px black;
+    border: solid 3px var(--frame);
     border-radius: 50%;
     width: 20%;
     float: left;
